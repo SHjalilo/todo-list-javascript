@@ -26,11 +26,11 @@ body{
 .header button{
     border-radius: 50%;
     position: relative;
-    color: #fa020e;
+    color: #000000;
     background: #ffffff;
     float: right;
-    width:  23px;
-    margin-top: -23px;
+    width:  29px;
+    margin-top: -28px;
 }
 .list ul{
     position: relative;
@@ -39,10 +39,29 @@ body{
 .list ul li {
     position: relative;
     list-style: none;
-    padding: 15px 0;
+    padding: 20px 0;
+    /*margin: 0 10px;*/
     border-bottom: 1px solid #9b9b9b;
     box-shadow: 0 5px 10px rgb(199, 240, 247);
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
+.item-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.item-btn i {
+    font-size: 18px;
+    margin-left: 20px;
+}
+.item-btn span{
+    margin-left: 360px;
+}
+h3{
+    margin-left: 20px;
+}
+h4{
+    text-align: center;
+    font-size: 24px;
+}
